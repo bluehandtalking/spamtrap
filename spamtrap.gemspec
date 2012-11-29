@@ -1,11 +1,8 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib/', __FILE__)
-$:.unshift lib unless $:.include?(lib)
-require 'lib/spamtrap/version'
 
 spec = Gem::Specification.new do |s|
   s.name = 'spamtrap'
-  s.version = Spamtrap::VERSION
+  s.version = '0.0.5'
   s.platform = Gem::Platform::RUBY
   s.author = 'Cedric Howe'
   s.email = 'cedric@freezerbox.com'
